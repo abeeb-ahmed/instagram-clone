@@ -12,7 +12,7 @@ import { HomeIcon } from "@heroicons/react/solid";
 
 function Header() {
   return (
-    <div className="bg-white">
+    <div className="bg-white sticky top-0 shadow-sm border-b">
       <div className="flex justify-between max-w-6xl p-5 sm:mx-5 lg:mx-auto">
         {/* Left */}
         <div className="relative hidden lg:inline-grid w-24 cursor-pointer">
